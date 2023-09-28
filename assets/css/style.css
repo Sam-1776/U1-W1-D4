@@ -1,0 +1,143 @@
+/* IMPOSTAZIONI GENERALI */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,500;1,600&display=swap");
+body {
+  margin: 0;
+  background-image: url();
+  width: 500px;
+  margin-inline: auto;
+  font-family: "Poppins";
+}
+
+/* HEADER */
+header {
+  width: 400px;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-inline: auto;
+  background-image: linear-gradient(
+    315deg,
+    rgba(5, 116, 136, 1) 0%,
+    rgba(10, 153, 187, 1) 100%
+  );
+  box-shadow: 0 6px 8px 2px #00000052;
+}
+header * {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+header > .descrizione > img {
+  width: 250px;
+  padding-top: 40px;
+  background-image: none;
+}
+.descrizione {
+  text-align: center;
+}
+.descrizione > p {
+  padding: 30px;
+  padding-bottom: 20px;
+}
+
+menu {
+  text-align: center;
+  background-image: none;
+}
+menu > ul > li {
+  padding: 5px;
+}
+menu > ul > li > [href="#"]::after {
+  padding: 4px;
+  content: "⇐";
+}
+menu > ul > li > [href="#"]::before {
+  padding: 4px;
+  content: "⇒";
+}
+
+/* MAIN */
+main {
+  width: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-inline: auto;
+  box-shadow: 0 6px 8px 2px #00000052;
+  font-weight: 300;
+  line-height: 25px;
+}
+main *{
+    padding-bottom: 20px;
+}
+
+main > .titoli {
+  padding-left: 15px;
+  padding-top: 30px;
+}
+
+.titoli > h1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding-bottom: 15px;
+  line-height: 45px;
+}
+.titoli > h2 {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article {
+  padding-left: 15px;
+  font-size: 1.2rem;
+}
+article > .introduzione > span{
+    color: purple;
+    font-weight: 400;
+}
+article > .lista1 *{
+    padding-bottom: 3px;
+    ;
+}
+
+
+/* TABELLE */
+
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+
+footer {
+  width: 400px;
+  height: 150px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-inline: auto;
+  background-image: linear-gradient(
+    180deg,
+    rgba(3, 85, 102, 1) 0%,
+    rgba(47, 56, 56, 1) 100%
+  );
+  box-shadow: 0 6px 8px 2px #00000052;
+}
+footer * {
+  font-size: 1rem;
+  color: white;
+  font-family: "Poppins";
+  text-align: center;
+}
+footer > .copyright {
+  padding-top: 20px;
+}
+footer > .info {
+  padding: 20px;
+  line-height: 25px;
+}
+.info a[href$=".school"] {
+  color: fuchsia;
+  font-weight: 600;
+}
