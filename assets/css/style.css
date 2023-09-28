@@ -104,12 +104,6 @@ article > .lista1 > ul {
 .lista1 > ul > li {
   padding-bottom: 1px;
 }
-.bottone {
-  font-size: 1rem;
-  text-align: center;
-  background-color: lightgray;
-  border-radius: 6px;
-}
 article > h4 {
   padding-bottom: 0;
 }
@@ -153,16 +147,75 @@ tr:nth-child(2n) {
   margin-inline: auto;
   background-color: lightgray;
 }
-.newsletter > h4{
-    font-size: 1.7rem;
-    text-transform: uppercase;
-    font-weight: 400;
-    text-align: center;
-    padding-top: 20px;
+.newsletter > h4 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 20px;
+}
+.newsletter > p {
+  width: 325px;
+  font-size: 1.2rem;
+  margin-inline: auto;
+}
+.newsletter form {
+  width: 325px;
+  text-align: center;
 }
 
+.newsletter > form > input {
+  width: 200px;
+  height: 20px;
+  border: none;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.newsletter > form > button {
+  border: none;
+  width: 60px;
+  height: 20px;
+  background-color: blue;
+  color: white;
+  font-weight: 400;
+  padding-bottom: 2px;
+}
 
 /* ELEMENTI NELL' ASIDE */
+aside {
+  width: 350px;
+  margin-inline: auto;
+  
+}
+aside > h4 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 35px;
+}
+
+aside > div {
+    background-color: lightgray;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+aside > div > p{
+    padding-bottom: 0;
+    padding-left: 12px;
+}
+aside > div > .ac-ti{
+    padding-top: 15px;
+    font-weight: 500;
+}
+aside > div > .data{
+    text-align: end;
+    padding: 20px;
+    padding-bottom: 10px;
+}
 
 /* FOOTER */
 
