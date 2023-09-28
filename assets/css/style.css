@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,500;1,600&display=swap");
 body {
   margin: 0;
-  background-image: url();
+  background-image: url("../img/sfondo.png");
   width: 500px;
   margin-inline: auto;
   font-family: "Poppins";
@@ -63,12 +63,13 @@ main {
   margin-top: 15px;
   margin-bottom: 15px;
   margin-inline: auto;
+  background-color: white;
   box-shadow: 0 6px 8px 2px #00000052;
   font-weight: 300;
   line-height: 25px;
 }
-main *{
-    padding-bottom: 20px;
+main * {
+  padding-bottom: 20px;
 }
 
 main > .titoli {
@@ -92,18 +93,22 @@ article {
   padding-left: 15px;
   font-size: 1.2rem;
 }
-article > .introduzione > span{
-    color: purple;
-    font-weight: 400;
+article > .introduzione > span {
+  color: purple;
+  font-weight: 400;
 }
-article > .lista1 *{
-    padding-bottom: 3px;
-    ;
+article > .lista1 * {
+  box-sizing: border-box;
+  padding-bottom: 3px;
+  padding-left: 25px;
+  padding-right: 10px;
+  text-align: justify;
 }
-
+article > .lista1 > code {
+  padding-left: 0;
+}
 
 /* TABELLE */
-
 
 /* FORM */
 
