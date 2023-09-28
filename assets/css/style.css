@@ -98,20 +98,39 @@ article span {
   color: purple;
   font-weight: 400;
 }
+article > .lista1 * {
+    padding-bottom: 3px;
+  }
 article > .lista1 > ul {
   padding-left: 1.2rem;
 }
-.lista1 > ul > li {
-  padding-bottom: 1px;
-}
+article > .lista1 > ul > li::before {
+    padding-right: 5px;
+    content: "●";
+  }
+
 article > h4 {
   padding-bottom: 0;
 }
 article > .lista2 * {
-  padding-bottom: 3px;
+    padding-bottom: 3px;
+  }
+article > .lista2 > ol {
   padding-left: 1.2rem;
-  padding-right: 10px;
 }
+article > .lista2 > ol > .l1::before {
+    padding-right: 5px;
+    content: "⒈";
+  }
+article > .lista2 > ol > .l2::before {
+    padding-right: 5px;
+    content: "⒉";
+  }
+article > .lista2 > ol > .l3::before {
+    padding-right: 5px;
+    content: "⒊";
+  }
+
 article > .test {
   padding-top: 20px;
 }
