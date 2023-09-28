@@ -34,34 +34,43 @@
     <main>
       <div class="titoli">
         <h1>Come creare un template per i post</h1>
-        <h2><i class="fas fa-pen-square"></i> di Mario Rossi - <i class="fas fa-clock"></i> pubblicato il 25-10-2020</h2>
+        <h2>
+          <i class="fas fa-pen-square"></i> di Mario Rossi -
+          <i class="fas fa-clock"></i> pubblicato il 25-10-2020
+        </h2>
       </div>
       <article>
         <p class="introduzione">
           La prima cosa da fare è suddividere in blocchi logici la pagina,
-          identificandole <span>parti comuni</span> da applicare a tutte le pagine
+          identificandole <span>parti comuni</span> da applicare a tutte le
+          pagine
         </p>
         <p>Le varie aree saranno quindi suddivise in:</p>
 
         <div class="lista1">
           <ul>
-            <li>Contenuti di intestazione del tag <code>&lt header &gt</code></li>
             <li>
-              Contenuti centrali del tag <code>&lt main &gt</code> (corpo
+              Contenuti di intestazione del tag
+              <button class="bottone"><code>&lt header &gt</code></button>
+            </li>
+            <li>
+              Contenuti centrali del tag
+              <button class="bottone"><code>&lt main &gt</code></button>(corpo
               principale)
             </li>
             <li>
               Contenuti di fine pagina comuni, da inserire nel tag
-              <code>&lt footer &gt</code>
+              <button class="bottone"><code>&lt footer &gt</code></button>
             </li>
           </ul>
         </div>
         <h4>Formattazione del codice</h4>
         <p>
           Il testo dell'articolo dovrà essere formattatto per identificare tutte
-          le parti da selezionare con i CSS. perciò i passi saranno:
+          le parti da <span>selezionare con i CSS</span>. perciò i passi
+          saranno:
         </p>
-      <div class="lista2">
+        <div class="lista2">
           <ol>
             <li>
               Progettare il markup assegnando ad ogni specifico testo il tag
@@ -73,13 +82,13 @@
             </li>
             <li>Applicare gli stili CSS</li>
           </ol>
-      </div>
+        </div>
         <p>
           L'applicazione di stili CSS è cresciuta negli anni fino a raggiungere
           la diffusione pressochè totale
         </p>
         <table>
-          <caption>
+          <caption class="t-tab">
             Diffusione dei css
           </caption>
           <thead>
@@ -115,25 +124,19 @@
             </tr>
           </tbody>
         </table>
-        <p>
+        <p class="test">
           Un test di validazione potrà essere fatto tramite il
           <a href="https://validator.w3.org/">tool online</a> dedicato allo
           scopo. Una volta ottimizzato il tutto, avremo raggiunto il nostro
           obiettivo ed essere stati dei veri developers come loro:
         </p>
-
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/B82GbfAPXT8?si=-U3UXd6_44JdZ-a-"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
+        <video
+          src="./assets/img/CMO di una STARTUP_ Come si gestisce il Marketing.mp4"
+          controls
+        ></video>
       </article>
-      <hr />
-      <div>
+      <div class="newsletter">
+        <h4>Novità</h4>
         <span>
           Vuoi rimanere aggiornato sulle altre novità del blog? Iscriviti alla
           nostra newsletter
@@ -145,7 +148,6 @@
         </form>
       </div>
       <aside>
-        <hr />
         <h4>Articoli correlati</h4>
         <div>
           <span>Validare il codice HTML </span>
